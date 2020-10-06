@@ -1,9 +1,10 @@
 import Link from 'next/link';
 import Head from 'next/head';
+import Layout from '../../components/Layout';
 
 const FirstPost = props => {
     return (
-        <>
+        <Layout>
             <Head>
                 <title>First post!</title>
             </Head>
@@ -13,7 +14,7 @@ const FirstPost = props => {
                     <a>Back to home.</a>
                 </Link>
             </h2>
-        </>
+        </Layout>
     )
 };
 
